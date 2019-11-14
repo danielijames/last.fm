@@ -10,8 +10,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        ZStack{
+            Rectangle().background(Color.init(red: 1.0, green: 1.0, blue: 1.0))
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack{
         Text("Hello, World!")
-    }
+         }
+      }
+   }
 }
 
 struct ContentView_Previews: PreviewProvider {

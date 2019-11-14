@@ -41,6 +41,8 @@
 			isa = PBXGroup;
 			children = (
 				E359CB6E237DBE740048AB24 /* last.fm */,
+				E359CB84237DC0140048AB24 /* DataModel */,
+				E359CB83237DBEB90048AB24 /* Delegates */,
 				E359CB6D237DBE740048AB24 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,8 +58,6 @@
 		E359CB6E237DBE740048AB24 /* last.fm */ = {
 			isa = PBXGroup;
 			children = (
-				E359CB6F237DBE740048AB24 /* AppDelegate.swift */,
-				E359CB71237DBE740048AB24 /* SceneDelegate.swift */,
 				E359CB73237DBE740048AB24 /* ContentView.swift */,
 				E359CB75237DBE760048AB24 /* Assets.xcassets */,
 				E359CB7A237DBE770048AB24 /* LaunchScreen.storyboard */,
@@ -73,6 +73,22 @@
 				E359CB78237DBE770048AB24 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E359CB83237DBEB90048AB24 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E359CB6F237DBE740048AB24 /* AppDelegate.swift */,
+				E359CB71237DBE740048AB24 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		E359CB84237DC0140048AB24 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
